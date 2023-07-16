@@ -1,8 +1,7 @@
 # Sistemas de Programación No Convencional de Robots
 
 Se trata de un clasificador en tiempo real de imágenes a color. Puede utilizarse en el celular, solo apunta la cámara a la imagen que quieres clasificar (puede ser una imagen de la computadora, una foto, o uno de verdad).
-El clasificador clasifica imagenes segun 10 categorias, las cuales son: avion, auto, pajaro, gato, ciervo, perro, rana, caballo, barco y camion. Estas categorias estan designadas [aquí]([https://www.cs.toronto.edu/~kriz/cifar.html])
-
+El clasificador clasifica imagenes segun 10 categorias, las cuales son: avion, auto, pajaro, gato, ciervo, perro, rana, caballo, barco y camion. Estas categorias estan designadas [aquí](https://www.cs.toronto.edu/~kriz/cifar.html)
 
 ## Cómo utilizarlo
 
@@ -16,7 +15,7 @@ Este proyecto utiliza un modelo de Tensorflow.js, el cual para cargarse requiere
 - Abre un explorador y ve a http://localhost:8000
 
 ### Utilizarlo en un celular
-- Descarga [ngrok]([https://ngrok.com/]) en tu computadora.
+- Descarga [ngrok](https://ngrok.com/) en tu computadora.
 - Abre una línea de comandos o terminal
 - Navega hasta la carpeta donde descargaste ngrok
 - Ejecuta el comando `ngrok http 8000`
